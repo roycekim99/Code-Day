@@ -50,7 +50,7 @@ blockquote {
     transition: all 1s cubic-bezier(.65,.02,.23,1);
     @for $i from 1 through 7 {
       &:nth-child(#{$i}) {
-        transition-delay: .1s * $i;
+        transition-delay: .2s * $i;
         z-index: $i;
       }
     }
